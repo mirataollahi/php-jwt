@@ -1,0 +1,17 @@
+{
+  "name": "php/encryption",
+  "type": "project",
+  "require": {
+    "larapack/dd": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}
